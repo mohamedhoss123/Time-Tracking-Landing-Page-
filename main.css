@@ -51,7 +51,7 @@ nav > div >ul li:nth-last-child(1) a{
         width: 100px;
         position: absolute;
         right: 0;
-        margin-right: 20px;
+        margin-right: 17px;
         display: flex;
         justify-content: space-around;
         margin-top: 4px;
@@ -107,10 +107,13 @@ section p , h2 {
     section{
         display: block;
         text-align: start;
-        margin-top: 40px;
+        margin: 20px auto;
         justify-content: center;
+        width: fit-content;
     }
     .midbar1{
+        width: fit-content;
+        width: -moz-fit-content;
         display: flex;
         justify-content: center;
     }
@@ -126,7 +129,7 @@ section p , h2 {
     }
     .midbar1 img:nth-child(3){
         width: 350px;   
-        margin: 0 0 0 33px;
+
 
     }
     section h2{
@@ -134,10 +137,12 @@ section p , h2 {
         font-weight: normal;
         font-size: 27px;
         line-height: 43px;
+        width: 251px;
     }
     section p {
         font-size: 16px;
         margin: 17px 0 17px 0;
+        width: 315px;
     }
     .midbar2{
         width: 368px;
@@ -178,10 +183,12 @@ section p , h2 {
     section h2 {
         font-size: 38px;
         line-height: 47px;
+        width: 372px;
     }
     section p {
         font-size: 26px;
         margin: 17px 0 26px 0;
+        width: 607px;
     }
 }
 /* end mid  */
